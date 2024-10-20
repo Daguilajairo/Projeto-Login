@@ -70,7 +70,7 @@ form > div.campo {
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
     text-align: center;
     padding: 10px;
@@ -81,6 +81,22 @@ div.campo > label{
 display: none;
 }
 
+div.campo > input{
+    background-color: #69dfdb;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    transform: translateY(-5px);
+    border: 500px;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+    border: none;
+}
 
 
 form > input[type=submit]{
